@@ -4,7 +4,15 @@ import "./style.css";
 function Header() {
     return (
         <div>
-          <h1>James Brooks</h1>
+          <div class="col-lg-3">
+                        <header>
+                            <div id="h1">
+                                <h1>
+                                    James Brooks
+                                    </h1>
+                            </div>
+                        </header>
+                    </div>
         </div>
     );
 };
