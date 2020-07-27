@@ -4,7 +4,7 @@ import "./style.css";
 function Header() {
     return (
         <div>
-          <div class="col-lg-3">
+          <div className="col-lg-3">
                         <header>
                             <div id="h1">
                                 <h1>
