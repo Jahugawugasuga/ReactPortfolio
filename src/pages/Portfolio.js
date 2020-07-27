@@ -1,10 +1,15 @@
 import React, { Component } from "react";
-import team from "../Img/bekir-donmez-eofm5R5f9Kw-unsplash.jpg"
-import vault from "../Img/jason-dent-3wPJxh-piRw-unsplash.jpg"
-import lightning from "../Img/max-larochelle-uu-Jw5SunYI-unsplash.jpg"
-import planner from "../Img/stil-flRm0z3MEoA-unsplash.jpg"
+import Project from "../components/Project"
+import projectsJSON from "../projects.json"
+
 
 class Portfolio extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            projects: projectsJSON
+        }
+    }
 
     render() {
         return (
@@ -21,60 +26,30 @@ class Portfolio extends Component {
                             <div id="h1_secondary">Portfolio</div>
                             <hr />
                         </div>
-                        <div className="imgcontainer">
-                            <div className="row">
-                                <div className="col-lg-4 col-md-4 col-sm-4 img-responsive">
-                                    <img id="password" className="img" src={vault}
-                                        alt="vault" />
-                                    <div>
-                                        <p id="linkfont">
-                                            <a href="https://jahugawugasuga.github.io/password_generator/">Password Generator</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-4 col-sm-4 img-responsive">
-                                    <img id="team" className="img" src={team}
-                                        alt="stacked_rocks" />
-                                    <div>
-                                        <p id="linkfont">
-                                            <a href="https://jahugawugasuga.github.io/teammanager">Team Manager</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <br />
-                            <br />
-                            <div className="row">
-                                <div className="col-lg-4 col-md-4 col-sm-4 img-responsive">
-                                    <img id="planner" className="img" src={planner}
-                                        alt="day_planner" />
-                                    <div>
-                                        <p id="linkfont">
-                                            <a href="https://jahugawugasuga.github.io/Calendar/">Day Planner</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-4 col-md-4 col-sm-4 img-responsive">
-                                    <img id="weather" className="img" src={lightning}
-                                        alt="thunderstorm" />
-                                    <p id="linkfont">
-                                        <a href="https://jahugawugasuga.github.io/Weather-Information-Database/">
-                                            Weather Forecast
-                                        </a>
-                                    </p>
-                                </div>
-                            </div>
-                            <br />
-                            <br />
+                        {this.state.projects.map(project => (
+                            <Project
+                                id = {project.title}
+                                title={project.title}
+                                image={project.image}
+                                link={project.link}
+                            />
 
-                        </div>
+                        ))
+                    }
+
+                            
+
                     </div>
                 </div>
             </div>
 
+
+
         )
+        
     }
+
 }
 
 export default Portfolio;
