@@ -4,7 +4,7 @@ import "./style.css";
 function Header() {
     return (
         <div>
-          im the Header
+          <h1>James Brooks</h1>
         </div>
     );
 };
