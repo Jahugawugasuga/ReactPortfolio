@@ -13,7 +13,7 @@ function Navbar() {
               to="/about"
               className="nav-link"
               style={{ color: "darkGray",
-              backgroundColor: "lightGreen" }}
+              backgroundColor: "rgb(151, 209, 35);" }}
               activeStyle={{ color: "black" }}
               exact
             >
@@ -25,7 +25,7 @@ function Navbar() {
               to="/portfolio"
               className="nav-link"
               style={{ color: "darkGray",
-              backgroundColor: "lightGreen" }}
+              backgroundColor: "rgb(151, 209, 35);" }}
               activeStyle={{ color: "black" }}
               exact
             >
@@ -37,7 +37,7 @@ function Navbar() {
               to="/contact"
               className="nav-link"
               style={{ color: "darkGray",
-              backgroundColor: "lightGreen" }}
+              backgroundColor: "rgb(151, 209, 35);" }}
               activeStyle={{ color: "black" }}
               exact
             >
