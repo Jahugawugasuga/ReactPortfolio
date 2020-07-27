@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import team from "../Img/bekir-donmez-eofm5R5f9Kw-unsplash.jpg"
+import vault from "../Img/jason-dent-3wPJxh-piRw-unsplash.jpg"
+import lightning from "../Img/max-larochelle-uu-Jw5SunYI-unsplash.jpg"
+import planner from "../Img/stil-flRm0z3MEoA-unsplash.jpg"
 
 class Portfolio extends Component {
 
@@ -7,7 +11,7 @@ class Portfolio extends Component {
 
             <div className="container">
                 <div className="row">
-                    
+
                     <div className="col-lg-5">
 
                     </div>
@@ -20,7 +24,7 @@ class Portfolio extends Component {
                         <div className="imgcontainer">
                             <div className="row">
                                 <div className="col-lg-4 col-md-4 col-sm-4 img-responsive">
-                                    <img id="password" className="img" src="/public/Img/jason-dent-3wPJxh-piRw-unsplash.jpg"
+                                    <img id="password" className="img" src={vault}
                                         alt="vault" />
                                     <div>
                                         <p id="linkfont">
@@ -29,7 +33,7 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-sm-4 img-responsive">
-                                    <img id="team" className="img" src="/public/Img/bekir-donmez-eofm5R5f9Kw-unsplash.jpg"
+                                    <img id="team" className="img" src={team}
                                         alt="stacked_rocks" />
                                     <div>
                                         <p id="linkfont">
@@ -43,7 +47,7 @@ class Portfolio extends Component {
                             <br />
                             <div className="row">
                                 <div className="col-lg-4 col-md-4 col-sm-4 img-responsive">
-                                    <img id="planner" className="img" src="./public/Img/stil-flRm0z3MEoA-unsplash.jpg"
+                                    <img id="planner" className="img" src={planner}
                                         alt="day_planner" />
                                     <div>
                                         <p id="linkfont">
@@ -52,7 +56,7 @@ class Portfolio extends Component {
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-4 col-sm-4 img-responsive">
-                                    <img id="weather" className="img" src="./Assets/Images/max-larochelle-uu-Jw5SunYI-unsplash.jpg"
+                                    <img id="weather" className="img" src={lightning}
                                         alt="thunderstorm" />
                                     <p id="linkfont">
                                         <a href="https://jahugawugasuga.github.io/Weather-Information-Database/">
