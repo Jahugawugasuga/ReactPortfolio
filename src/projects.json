@@ -2,25 +2,25 @@
     {
       "id": 1,
       "title": "Password Generator",
-      "image": "src/Img/jason-dent-3wPJxh-piRw-unsplash.jpg",
+      "image": "jason-dent-3wPJxh-piRw-unsplash.jpg",
       "link": "https://jahugawugasuga.github.io/password_generator/"
     },
     {
       "id": 2,
       "title":"Team Manager",
-      "image":"src/Img/bekir-donmez-eofm5R5f9Kw-unsplash.jpg",
+      "image":"bekir-donmez-eofm5R5f9Kw-unsplash.jpg",
       "link": "https://employeemanajer.herokuapp.com/"
     },
     {
       "id": 3,
       "title":"Day Planner",
-      "image":"src/Img/stil-flRm0z3MEoA-unsplash.jpg",
+      "image":"stil-flRm0z3MEoA-unsplash.jpg",
       "link": "https://jahugawugasuga.github.io/Calendar/"
     },
     {
       "id": 4,
       "title": "Weather Dashboard",
-      "image":"src/Img/max-larochelle-uu-Jw5SunYI-unsplash.jpg",
+      "image":"max-larochelle-uu-Jw5SunYI-unsplash.jpg",
       "link": "https://jahugawugasuga.github.io/Weather-Information-Database/"
     }
   
