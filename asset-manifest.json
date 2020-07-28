@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/ReactPortfolio/static/css/main.72514313.chunk.css",
-    "main.js": "/ReactPortfolio/static/js/main.25697b19.chunk.js",
-    "main.js.map": "/ReactPortfolio/static/js/main.25697b19.chunk.js.map",
+    "main.js": "/ReactPortfolio/static/js/main.ea1d2287.chunk.js",
+    "main.js.map": "/ReactPortfolio/static/js/main.ea1d2287.chunk.js.map",
     "runtime-main.js": "/ReactPortfolio/static/js/runtime-main.5b3ce1ae.js",
     "runtime-main.js.map": "/ReactPortfolio/static/js/runtime-main.5b3ce1ae.js.map",
-    "static/js/2.984408fd.chunk.js": "/ReactPortfolio/static/js/2.984408fd.chunk.js",
-    "static/js/2.984408fd.chunk.js.map": "/ReactPortfolio/static/js/2.984408fd.chunk.js.map",
+    "static/js/2.15c3d3f5.chunk.js": "/ReactPortfolio/static/js/2.15c3d3f5.chunk.js",
+    "static/js/2.15c3d3f5.chunk.js.map": "/ReactPortfolio/static/js/2.15c3d3f5.chunk.js.map",
     "index.html": "/ReactPortfolio/index.html",
-    "precache-manifest.106c1352b617bc2e58242f1096f7ed05.js": "/ReactPortfolio/precache-manifest.106c1352b617bc2e58242f1096f7ed05.js",
+    "precache-manifest.1044c35d48312a83ccd49764fad60fe3.js": "/ReactPortfolio/precache-manifest.1044c35d48312a83ccd49764fad60fe3.js",
     "service-worker.js": "/ReactPortfolio/service-worker.js",
     "static/css/main.72514313.chunk.css.map": "/ReactPortfolio/static/css/main.72514313.chunk.css.map",
-    "static/js/2.984408fd.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.984408fd.chunk.js.LICENSE.txt",
-    "static/media/brooksfam.png": "/ReactPortfolio/static/media/brooksfam.1bda758a.png"
+    "static/js/2.15c3d3f5.chunk.js.LICENSE.txt": "/ReactPortfolio/static/js/2.15c3d3f5.chunk.js.LICENSE.txt",
+    "static/media/bekir-donmez-eofm5R5f9Kw-unsplash.jpg": "/ReactPortfolio/static/media/bekir-donmez-eofm5R5f9Kw-unsplash.c914ccca.jpg",
+    "static/media/brooksfam.png": "/ReactPortfolio/static/media/brooksfam.1bda758a.png",
+    "static/media/jason-dent-3wPJxh-piRw-unsplash.jpg": "/ReactPortfolio/static/media/jason-dent-3wPJxh-piRw-unsplash.7077ac81.jpg",
+    "static/media/max-larochelle-uu-Jw5SunYI-unsplash.jpg": "/ReactPortfolio/static/media/max-larochelle-uu-Jw5SunYI-unsplash.56c798e1.jpg",
+    "static/media/stil-flRm0z3MEoA-unsplash.jpg": "/ReactPortfolio/static/media/stil-flRm0z3MEoA-unsplash.3fdefd4a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5b3ce1ae.js",
-    "static/js/2.984408fd.chunk.js",
+    "static/js/2.15c3d3f5.chunk.js",
     "static/css/main.72514313.chunk.css",
-    "static/js/main.25697b19.chunk.js"
+    "static/js/main.ea1d2287.chunk.js"
   ]
 }
